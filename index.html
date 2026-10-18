@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for a nice aesthetic look -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Floating Background Elements -->
+    <div class="floating-hearts">
+        <span>🎈</span><span>💖</span><span>⭐</span><span>🎂</span><span>🎈</span><span>💖</span>
+    </div>
+
+    <div class="card">
+        <h1>Happy Birthday Dear GEET🎉</h1>
+        <p class="subtitle">Wishing you a day filled with happiness and a year filled with joy.</p>
+
+        <!-- Surprise Message Button -->
+        <button id="surpriseBtn" onclick="revealMessage()">Click for a Surprise! 🎁</button>
+        
+        <div id="hiddenMessage" class="hidden">
+            <p>🌟 "May all your dreams turn into reality and may Lady Luck be with you today and always. Have an absolute blast!" 🌟
+            
+            Happy birthday🥳🤩
+
+Happy Birthday to the most special person in my life!❤
+
+On your special day, I just want you to know how much you mean to me.
+
+You bring light, laughter, and so much love wherever you go.
+
+May your day be filled with all the happiness you deserve, and may this year bring you endless success, peace, and joy.
+
+Always stay the amazing person you are - the world is better with you. 🕊🥰
+
+Love you always.🦢🌹🌷
+            will u......</p>
+        </div>
+    </div>
+
+    <script>
+        function revealMessage() {
+            var msg = document.getElementById("hiddenMessage");
+            msg.style.display = "block";
+            msg.style.animation = "fadeIn 1s ease-in-out";
+        }
+    </script>
+</body>
+</html>
+
+
